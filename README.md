@@ -175,7 +175,7 @@ The optimization algorithm recommends:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/strategic-asset-allocation.git
+git clone https://github.com/quantlevel/strategic-asset-allocation.git
 cd strategic-asset-allocation
 
 # Create virtual environment (recommended)
@@ -279,5 +279,6 @@ jupyter>=1.0.0      # Notebook environment
   <strong>Strategic Asset Allocation</strong><br>
   <em>Bridging Theory and Practice in Quantitative Portfolio Management</em>
 </p>
+
 
 
