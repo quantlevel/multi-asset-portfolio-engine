@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="images/efficient_frontier.png" alt="Efficient Frontier" width="900"/>
-</p>
 
 <h1 align="center">Strategic Asset Allocation</h1>
 <h3 align="center">Multi-Asset Portfolio Optimization via Modern Portfolio Theory</h3>
@@ -282,4 +279,5 @@ jupyter>=1.0.0      # Notebook environment
   <strong>Strategic Asset Allocation</strong><br>
   <em>Bridging Theory and Practice in Quantitative Portfolio Management</em>
 </p>
+
 
