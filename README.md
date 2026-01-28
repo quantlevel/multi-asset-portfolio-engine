@@ -1,5 +1,5 @@
 
-<h1 align="center">Strategic Asset Allocation</h1>
+<h1 align="center">Multi Asset Portfolio Engine</h1>
 <h3 align="center">Multi-Asset Portfolio Optimization via Modern Portfolio Theory</h3>
 
 <p align="center">
@@ -175,8 +175,8 @@ The optimization algorithm recommends:
 
 ```bash
 # Clone the repository
-git clone https://github.com/quantlevel/strategic-asset-allocation.git
-cd strategic-asset-allocation
+git clone https://github.com/quantlevel/multi-asset-portfolio-engine.git
+cd multi-asset-portfolio-engine
 
 # Create virtual environment (recommended)
 python -m venv venv
@@ -279,6 +279,7 @@ jupyter>=1.0.0      # Notebook environment
   <strong>Strategic Asset Allocation</strong><br>
   <em>Bridging Theory and Practice in Quantitative Portfolio Management</em>
 </p>
+
 
 
 
