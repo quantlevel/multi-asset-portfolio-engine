@@ -277,19 +277,9 @@ jupyter>=1.0.0      # Notebook environment
 
 ---
 
-## ⚠️ Disclaimer
-
-This project is for **educational and research purposes only**. It does not constitute investment advice. Past performance does not guarantee future results. Always consult a qualified financial advisor before making investment decisions.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
 
 <p align="center">
   <strong>Strategic Asset Allocation</strong><br>
   <em>Bridging Theory and Practice in Quantitative Portfolio Management</em>
 </p>
+
