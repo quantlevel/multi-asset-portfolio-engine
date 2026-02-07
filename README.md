@@ -93,6 +93,26 @@ Where:
 - $\Sigma$ = covariance matrix
 - $R_f$ = risk-free rate (5%)
 
+### Advanced Optimization Methodologies
+
+Beyond standard Mean-Variance, this engine provides the framework for more robust institutional allocation strategies:
+
+#### 1. Conditional Value at Risk (CVaR)
+Unlike standard volatility—which penalizes both upside and downside variance—**CVaR** (Expected Shortfall) focuses exclusively on "tail risk." It calculates the expected loss in the worst $(1-\alpha)\%$ of scenarios.
+
+$$ \text{CVaR}_{\alpha} = \mathbb{E}[L \mid L \ge \text{VaR}_{\alpha}] $$
+
+#### 2. Black-Litterman Model
+A Bayesian approach that addresses the "estimation error" of standard MPT. It blends **Market Equilibrium** (prior) with **Investor Views** (active) to produce more stable and intuitive asset weights.
+
+$$ \mathbb{E}[R] = [(\tau \Sigma)^{-1} + P^T \Omega^{-1} P]^{-1} [(\tau \Sigma)^{-1} \Pi + P^T \Omega^{-1} Q] $$
+
+#### 3. Risk Parity (Equal Risk Contribution)
+A risk-centric approach that ignores expected returns to focus on diversification. It solves for weights $\mathbf{w}$ such that each asset contributes equally to the total portfolio volatility:
+
+$$ w_i \frac{(\Sigma \mathbf{w})_i}{\sigma_p} = w_j \frac{(\Sigma \mathbf{w})_j}{\sigma_p} \quad \forall i, j $$
+
+
 ### Monte Carlo Portfolio Space
 
 We generate 10,000 random portfolio allocations to explore the feasible region and visualize the risk-return trade-off landscape.
@@ -274,6 +294,7 @@ jupyter>=1.0.0      # Notebook environment
   <strong>Strategic Asset Allocation</strong><br>
   <em>Bridging Theory and Practice in Quantitative Portfolio Management</em>
 </p>
+
 
 
 
