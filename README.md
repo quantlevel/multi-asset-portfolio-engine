@@ -97,11 +97,6 @@ Where:
 
 We generate 10,000 random portfolio allocations to explore the feasible region and visualize the risk-return trade-off landscape.
 
-<p align="center">
-  <img src="images/monte_carlo.png" alt="Monte Carlo Simulation" width="900"/>
-</p>
-
-*Figure 3: Monte Carlo simulation of 10,000 random portfolios colored by Sharpe ratio. The maximum Sharpe portfolio (★) is highlighted.*
 
 ### Efficient Frontier Construction
 
@@ -279,6 +274,7 @@ jupyter>=1.0.0      # Notebook environment
   <strong>Strategic Asset Allocation</strong><br>
   <em>Bridging Theory and Practice in Quantitative Portfolio Management</em>
 </p>
+
 
 
 
